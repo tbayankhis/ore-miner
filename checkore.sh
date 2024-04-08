@@ -3,6 +3,6 @@
 echo "Checking ORE balance..."
 
 while true; do
-    ore --keypair ~/.config/solana/id.json balance
+    ore --keypair ~/.config/solana/ore.json balance
     sleep 10
 done
